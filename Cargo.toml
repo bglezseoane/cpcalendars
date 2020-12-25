@@ -1,0 +1,20 @@
+[package]
+name = "cpcalendars"
+version = "0.1.0"
+authors = ["Borja González Seoane <garaje@glezseoane.es>"]
+edition = "2018"
+license-file = "LICENSE"
+description = "Really simple CLI app to copy Mac OS Calendar.app calendars sources to other location"
+readme = "README.md"
+homepage = "https://github.com/bglezseoane/cpcalendars"
+repository = "https://github.com/bglezseoane/cpcalendars"
+keywords = ["cli", "calendars", "macos"]
+categories = ["command-line-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+structopt = "0.3.13"
+glob = "0.3.0"
+fs_extra = "1.2.0"
+dirs = "3.0.1"
