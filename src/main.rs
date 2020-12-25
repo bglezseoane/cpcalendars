@@ -1,8 +1,7 @@
 /// Really simple CLI app to copy Mac OS Calendar.app calendars sources to other location
 /// e.g. `cpcalendars <destination>`
 
-use std::path::PathBuf;
-use std::{env, fs};
+use std::fs;
 
 use fs_extra::{copy_items, dir};
 use glob::glob;
