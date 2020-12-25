@@ -3,6 +3,8 @@
 
 *Really simple CLI app to copy Mac OS Calendar.app calendars sources to other location.*
 
+![Status](http://www.borja.glezseoane.es/img/project-status-label-development.svg "Status: development")
+
 Copy the calendar resources from the Mac OS Calendar app to the specified directory, building a pseudo-ICBU file. This file constitutes a comprehensive backup of your calendars.
 
 In the first run it will need to be granted permissions for the Calendars app by System Integrity Protection system.
